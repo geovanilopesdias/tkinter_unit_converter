@@ -18,3 +18,6 @@ In the background, there's the units_for_converter module that provides the foll
 **- Unit**: a class to abstract the unit of a quantity.
 
 **- UnitsTable**: enumerator to limit the possibilities of the available units for both unit listboxes and the conversion functionality. It contains a number of Unit instances each one representing different units. The choice for an enumerator is to avoid database or csv handling for now and, as I understand, a more versatile option than dictionaries for this context.
+
+## Issues
+I couldn't yet resolve the grid configuration as I wish. On Linux, I was able to run it properly, nut [on Replit](https://replit.com/@GeovaniLopesLop/unitconverter#main.py) the result label doesn't show.
